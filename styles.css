@@ -37,6 +37,13 @@ a { color: inherit; }
 .header-cta { display: inline-flex; align-items: center; gap: .9rem; padding: .8rem 1.05rem; border: 1px solid rgba(213, 242, 139, .48); border-radius: 2px; color: var(--sage); font-size: .84rem; text-decoration: none; transition: background .2s ease, color .2s ease, border-color .2s ease; }
 .header-cta span { font-size: 1rem; }
 .header-cta:hover { border-color: var(--sage); background: var(--sage); color: var(--forest-deep); }
+.legal-page .site-header { border-bottom-color: rgba(16, 39, 31, .14); color: var(--forest); }
+.legal-page .desktop-nav a { color: rgba(16, 39, 31, .76); }
+.legal-page .desktop-nav a:hover { color: var(--forest); }
+.legal-page .header-cta { border-color: var(--forest); background: var(--forest); color: var(--sage); }
+.legal-page .header-cta:hover { border-color: var(--forest-deep); background: var(--forest-deep); color: var(--paper); }
+.legal-page .mobile-nav summary { border-color: rgba(16, 39, 31, .38); }
+.legal-page .mobile-nav summary span { background: var(--forest); }
 .mobile-nav { display: none; }
 
 .hero { position: relative; display: grid; min-height: 790px; grid-template-columns: minmax(0, 1fr) minmax(320px, .84fr); align-items: center; gap: clamp(2rem, 5vw, 5.5rem); overflow: hidden; padding: 142px var(--page-gutter) 112px; background: var(--forest); color: var(--paper); }
