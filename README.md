@@ -8,7 +8,7 @@ Diese Website besteht aus HTML, CSS und SVG. Es wird kein Build-Tool benötigt.
 - `impressum/index.html` — Impressum
 - `datenschutz/index.html` — Datenschutzhinweise
 - `styles.css` — responsive Gestaltung
-- `assets/` — DornDigital-Zeichen und Favicon
+- `assets/` — DornDigital-Zeichen, vollständiges Hintergrundlogo und Favicon
 - `_headers` — Sicherheits- und Browser-Header für Cloudflare Pages
 
 ## Veröffentlichung über GitHub und Cloudflare Pages
